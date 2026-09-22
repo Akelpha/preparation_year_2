@@ -12,11 +12,13 @@ int main(){
     cout << "Veuillez entrer votre adresse mail ?";
     cin >> email;
 
-    cout << "+=========================================+";
-    cout << "|        NOM    : " <<nom <<endl <<"      |";
-    cout << "|        Prenom : "  <<prenom <<endl<<"   |";
-    cout << "|        Filiere: " <<filiere <<endl<<"   |";
-    cout << "|        Email  : " <<email <<endl<<"     |";
-    cout << "+=========================================+";
+    cout << "+=========================================+"<<endl ;
+    cout << "|        NOM    : " <<nom <<"             |"<<endl ;
+    cout << "|        Prenom : "  <<prenom<<"          |"<<endl ;
+    cout << "|        Filiere: " <<filiere<<"          |"<<endl ;
+    cout << "|        Email  : " <<email<<"            |"<<endl ;
+    cout << "+=========================================+"<<endl ;
+
+    return 0;
     
 }
