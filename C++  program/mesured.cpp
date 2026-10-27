@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#define _USE_MATH_DEFINES // for C++
+#define _USE_MATH_DEFINES;
 #include <cmath>
 
 
