@@ -17,6 +17,7 @@ int main (){
             cin.clear();
             cin.ignore(1000, '\n'); // cin . ignore ( numeric_limits < streamsize >:: max () , '\n ') ;
         }
+        
         else if ( rho <= 0 || h <= 0|| v <= 0 ||  d<= 0 || mu<= 0) {
         cout << " Erreur ! Les nombres doivent etre positif . " << endl ;
         }
